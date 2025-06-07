@@ -1,0 +1,90 @@
+.profile-achievements {
+    margin-top: 1.2rem;
+    max-width: 800px;
+}
+
+.profile-achievements ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    list-style: none;
+    justify-content: center;
+}
+
+.profile-achievements ul li {
+    background-color: rgba(255,255,255,0.15);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.ai-leader {
+    margin: 0.6rem 0;
+    font-size: 1.4rem !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.company-logo {
+    height: 50px;
+    filter: grayscale(0.7);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.company-logo:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.award-section {
+    background: linear-gradient(135deg, #f9f9f9 0%, #e9f5ff 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-shadow: var(--card-shadow);
+}
+
+.award-section h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.2rem;
+}
+
+.award-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.award-item h4 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.award-item .year {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+.professional-bio {
+    margin: 1rem 0;
+    line-height: 1.7;
+    color: #444;
+}
