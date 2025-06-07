@@ -81,10 +81,9 @@
         <section id="volunteer">
             <h2>Volunteer Involvement</h2>
             <ul>
-                <li>Career Mentor, Newcastle University, Singapore (2020–Present)</li>
+                <li>Career Mentor, Various Organizations, Singapore (2018–Present)</li>
                 <li>Board Advisor, World Spirit of the Game Foundation (2025–Present)</li>
-                <li>Aikido Instructor, Singapore Community Centers (2018–Present)</li>
-                <li>Academic Supervisor, various universities (2017–Present)</li>
+                <li>Academic Supervisor, Various Universities (2017–Present)</li>
             </ul>
         </section>
             <section id="experience">
@@ -158,7 +157,7 @@
                         <div class="timeline-content">                            <img src="images/Dell.jpg" alt="Dell Technologies" class="org-logo-timeline">
                             <h3>Global Product Business Leader (AI & Data Science) / Head of AI (APAC)</h3>
                             <span class="date">Nov 2019 – Nov 2022, Dell Technologies</span>
-                            <p>Led global AI product group, managed $50M R&D budget, launched products for 100M+ customers, and authored commercial patents for AI solutions.</p>
+                            <p>Led global AI product group, managed R&D budget, launched products for 100M+ customers, and authored commercial patents for AI solutions.</p>
                         </div>
                     </div>
                     <div class="timeline-item">
@@ -252,7 +251,10 @@
             </section>
         </main>
     <footer>
-        <p>&copy; 2025 Dr. Sam Li Weixian. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Dr. Sam Li Weixian. All rights reserved.</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </footer>
 </body>
 </html>
